@@ -30,7 +30,7 @@
 		<muleVersion>${app.runtime}</muleVersion>
 		<username>${cloudhub.username}</username>
 		<password>${cloudhub.password}</password>
-		<applicationName>${name}</applicationName>
+		<applicationName>${name}-${cloudhub.env}</applicationName>
 		<environment>${cloudhub.env}</environment>
 		<workers>${cloudhub.workers}</workers>
         <workerType>${cloudhub.worker.type}</workerType>
