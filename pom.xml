@@ -35,7 +35,7 @@
 		<workers>${cloudhub.workers}</workers>
         <workerType>${cloudhub.worker.type}</workerType>
 		<properties>
-			<http.port>${http.port}</http.port>
+			<key>value</key>
 		</properties>
 	</cloudHubDeployment>
  <classifier>mule-application</classifier>
